@@ -45,7 +45,7 @@ Sorry, guys, no tests for this app.
 * [redux](http://redux.js.org/docs/introduction/) - Redux for one-way data flow
 * [react-redux](https://github.com/reactjs/react-redux) - Official React bindings for Redux
 * [material-ui](http://www.material-ui.com/#/) - A Set of React Components that Implement Google's Material Design 
-* [axios](https://github.com/mzabriskie/axios) - Promise based HTTP client for the browser and node.jsgithub.io/rome/) - Used to generate RSS Feeds
+* [axios](https://github.com/mzabriskie/axios) - Promise based HTTP client for the browser and node.js
 
 ## Authors
 
