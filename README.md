@@ -40,6 +40,7 @@ Sorry, guys, no tests for this app.
 ## Built With
 
 * [react](https://facebook.github.io/react/)
+* [react-create-app](https://github.com/facebookincubator/create-react-app) - Create React apps with no build configuration
 * [router](https://github.com/ReactTraining/react-router) - Declarative routing for React
 * [redux](http://redux.js.org/docs/introduction/) - Redux for one-way data flow
 * [react-redux](https://github.com/reactjs/react-redux) - Official React bindings for Redux
@@ -48,11 +49,11 @@ Sorry, guys, no tests for this app.
 
 ## Authors
 
-* **Oleksandr Maksymenko** - *Initial work* - [mgdskr](https://github.com/mgdskr)
+* **Oleksandr Maksymenko** - [mgdskr](https://github.com/mgdskr)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
 
 ## Acknowledgments
 
