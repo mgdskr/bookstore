@@ -13,30 +13,22 @@ You just need [node.js](https://nodejs.org/uk/) and [npm](https://www.npmjs.com/
 ### Installing
 
 clone the repository
-
 ```
 git clone https://github.com/mgdskr/bookstore.git
 ```
 go to directory
-
 ```
 cd bookstore
 ```
-
 run installation of packages
-
 ```
 npm install
 ```
-
 run application
-
 ```
 npm start
 ```
-
 if you need to make a build
-
 ```
 npm run build
 ```
@@ -45,12 +37,10 @@ npm run build
 
 Sorry, guys, no tests for this app.
 
-### Break down into end to end test
-
 ## Built With
 
 * [react](https://facebook.github.io/react/)
-* [router] (https://github.com/ReactTraining/react-router) - Declarative routing for React
+* [router](https://github.com/ReactTraining/react-router) - Declarative routing for React
 * [redux](http://redux.js.org/docs/introduction/) - Redux for one-way data flow
 * [react-redux](https://github.com/reactjs/react-redux) - Official React bindings for Redux
 * [material-ui](http://www.material-ui.com/#/) - A Set of React Components that Implement Google's Material Design 
@@ -66,5 +56,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* **https://github.com/mkhrystunov** - [mkhrystunov](https://github.com/mkhrystunov)
+* **Maksym Khrystunov** - [mkhrystunov](https://github.com/mkhrystunov)
 * **Kateryna** - [krambertech](https://github.com/krambertech)
