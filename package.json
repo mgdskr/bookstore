@@ -1,7 +1,12 @@
 {
-  "name": "boockstore",
+  "name": "bookstore",
   "version": "0.1.0",
+  "main": "index.js",
   "private": true,
+  "author": "Oleksandr Maksymenko @mgdskr",
+  "license": "ISC",
+  "keywords": ["react", "react-router", "react-redux"],
+  "description": "Simple bookstore's back-office to practice react with router, one way data flow, MaterialUI and mockap.io as backend.",
   "dependencies": {
     "axios": "^0.15.3",
     "material-ui": "^0.17.0",
