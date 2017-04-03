@@ -5,8 +5,13 @@
   "private": true,
   "author": "Oleksandr Maksymenko @mgdskr",
   "license": "ISC",
-  "keywords": ["react", "react-router", "react-redux"],
+  "keywords": [
+    "react",
+    "react-router",
+    "react-redux"
+  ],
   "description": "Simple bookstore's back-office to practice react with router, one way data flow, MaterialUI and mockap.io as backend.",
+  "homepage": "http://mgdskr.github.io/bookstore",
   "dependencies": {
     "axios": "^0.15.3",
     "material-ui": "^0.17.0",
@@ -23,6 +28,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
   }
 }

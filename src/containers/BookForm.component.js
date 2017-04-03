@@ -11,7 +11,7 @@ class BookForm extends React.Component {
         const {books, fields, bookId} = this.props;
         let book = {};
         book = bookId === "new"
-            ? fields.map(field => {book[field] = '';})
+            ? fields.map(field => book[field] = '')
             : books.filter(book => book.id === bookId)[0];
         return (
             <div>
@@ -55,7 +55,7 @@ class BookForm extends React.Component {
         let book = {
             id: bookId
         };
-        fields.map(field => {book[field] = document.querySelector(`#${field}`).value});
+        fields.map(field => book[field] = document.querySelector(`#${field}`).value);
 
         if (bookId === "new") {
             dispatch(saveNewBookToServer(book))

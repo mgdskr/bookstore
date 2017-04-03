@@ -66,7 +66,9 @@ class BooksOverview extends React.Component {
 
     componentDidMount() {
         const {dispatch, books} = this.props;
-        books.length === 0 ? dispatch(fetchBooks()) : null;
+        if (books.length === 0) {
+            dispatch(fetchBooks())
+        }
     }
 
     handlerDelete(id) {

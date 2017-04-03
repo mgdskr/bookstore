@@ -5,7 +5,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 class Book extends React.Component {
     render () {
         const bookId = this.props.params.bookId;
-        let pageTitle = bookId !== "new" ? `Book ${bookId}` : pageTitle = 'New book';
+        let pageTitle = bookId !== "new" ? `Book ${bookId}` : 'New book';
 
         return (
             <MuiThemeProvider>
