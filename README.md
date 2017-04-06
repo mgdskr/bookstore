@@ -12,26 +12,11 @@ You just need [node.js](https://nodejs.org/uk/) and [npm](https://www.npmjs.com/
 
 ### Installing
 
-clone the repository
-```
-git clone https://github.com/mgdskr/bookstore.git
-```
-go to directory
-```
-cd bookstore
-```
-run installation of packages
-```
-npm install
-```
-run application
-```
-npm start
-```
-if you need to make a build
-```
-npm run build
-```
+clone the repository ```git clone https://github.com/mgdskr/bookstore.git```
+go to directory ```cd bookstore```
+run installation of packages ```npm install```
+run application ```npm start```
+if you need to make a build ```npm run build```
 
 ## Running the tests
 
