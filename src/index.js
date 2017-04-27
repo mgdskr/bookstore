@@ -17,7 +17,6 @@ const middleware = [ thunk ];
 
 const store = createStore(reducer, applyMiddleware(...middleware));
 
-
 injectTapEventPlugin();
 
 ReactDOM.render(
